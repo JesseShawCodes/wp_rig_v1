@@ -17,9 +17,7 @@
       "autoprefixer": {
         "grid": false
       },
-      "importFrom": [
-        "_custom-media.css"
-      ],
+      "importFrom": ["_custom-media.css"],
       "features": {
         "custom-media-queries": true,
         "custom-properties": true,
@@ -28,17 +26,13 @@
     },
     "debug": {
       "styles": false,
-      "scripts": false,
+      "scripts": true,
       "phpcs": true
     }
   },
   "export": {
     "compress": true,
     "generatePotFile": true,
-    "filesToCopy": [
-      "LICENSE",
-      "readme.txt",
-      "screenshot.png"
-    ]
+    "filesToCopy": ["LICENSE", "readme.txt", "screenshot.png"]
   }
 }

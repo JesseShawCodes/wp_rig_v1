@@ -1,1 +1,18 @@
-{}
+{
+  "theme": {
+    "slug": "newrig",
+    "name": "New Rig",
+    "author": "Jesse Shaw"
+  },
+  "dev": {
+    "browserSync": {
+      "live": true,
+      "proxyURL": "localhost:8888/WP_Rig_v1/",
+      "bypassPort": "8181",
+      "https": false
+    },
+    "debug": {
+      "scripts": false
+    }
+  }
+}
